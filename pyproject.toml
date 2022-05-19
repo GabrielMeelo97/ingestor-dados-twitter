@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ingestor_dados_twitter"
+version = "1.0"
+description = "Coleta dados do twitter e faz o ELT"
+authors = ["Gabriel de Melo"]
+
+[tool.poetry.dependencies]
+python = "3.8.10"
+requests = "^2.27.1"
+DateTime = "^4.4"
+pandas = "^1.4.2"
+backoff = "^1.11.1"
+ratelimit = "^2.2.1"
+boto3 = "^1.21.39"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
