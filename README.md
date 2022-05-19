@@ -1,0 +1,1 @@
+### Usando python para coletar os dados e inserir no data lake, depois usando spark databricks para tratar e inserir na segunda camada de dados tratados.
