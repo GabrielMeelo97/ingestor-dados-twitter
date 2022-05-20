@@ -1,7 +1,6 @@
-from dags.functions.dados_twitter.databricks import *
-from dags.functions.dados_twitter.twitter import *
-logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.INFO)
+import twitter
+import databricks
+from os import environ as env
 
 
 def handler(assunto,data_inicial,data_fim):
